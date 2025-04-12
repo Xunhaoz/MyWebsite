@@ -1,0 +1,328 @@
+{
+  "name": {
+    "zh": "張勛皓",
+    "en": "Xunhaoz Chang"
+  },
+  "profile": {
+    "zh": "一位有 <b>上進心</b> 的跨領域開發者，僅用三年半完成雙學士學位，展現非凡學習能力。</br></br>曾在四個不同學科的實驗室進行研究，培養了強大的 <b>跨學科整合能力</b>。</br></br>通過帶領 <b>跨領域團隊</b> 贏得四項國家級創新獎項，展示出卓越的領導才能和解決實際問題的技術能力。</br></br>在創業公司與大型企業的工作經驗中，充分發揮 <b>團隊合作</b> 精神和 <b>創新思維</b>，積累了豐富的實戰經驗。",
+    "en": "A highly <u>self-motivated</u> and adaptive <u>cross-domain</u> developer who completed dual bachelor’s degrees within just three and a half years. </br></br>Demonstrated exceptional learning agility through research assistant roles across 4 diverse laboratories, showing strong <u>interdisciplinary integration</u> capabilities. <br><br>Led <u>cross functional</u> teams to win four national innovation awards, while excelling at implementing technical solutions for real-world challenges. <br><br>Gained valuable experience in both startups and large enterprises, demonstrating outstanding <u>teamwork</u> and <u>innovative thinking</u>."
+  },
+  "life_photos": "/static/life_photo.png",
+  "education": [
+    {
+      "degree": {
+        "zh": "資訊工程學系 工程學士 GPA 4.2",
+        "en": "Bachelor of Engineer in Computer Science and Information Engineering GPA 4.2"
+      },
+      "university": {
+        "zh": "國立中央大學",
+        "en": "National Central University"
+      },
+      "from": "2021-09",
+      "to": "2025-02"
+    },
+    {
+      "degree": {
+        "zh": "財務金融學系 管理學士",
+        "en": "Bachelor of Management in Finance"
+      },
+      "university": {
+        "zh": "國立中央大學",
+        "en": "National Central University"
+      },
+      "from": "2022-09",
+      "to": "2025-02"
+    }
+  ],
+  "experience": [
+    {
+      "title": {
+        "zh": "研究助理",
+        "en": "Research Assistant"
+      },
+      "company": {
+        "zh": "應用經濟模型中心",
+        "en": "Center for Applied Economic Modeling"
+      },
+      "from": "2024-02",
+      "to": "present",
+      "description": {
+        "zh": [
+          "通過實施向量化計算，構建並部署了一個電網統計系統，為台灣電力公司每小時處理超過 60,000 個數據點。",
+          "通過開發結合 LSTM 的集成學習模型，將電網負載預測誤差降低了 85%，在生產環境中達到 0.25 的MAPE。"
+        ],
+        "en": [
+          "Architected and deployed a power grid stats system by implementing vectorized computing, processing 60K+ data points hourly for Taiwan Power Company.",
+          "Reduced power grid load prediction error by 85% by developing an ensemble model combining LSTM and Prophet, achieving MAPE of 0.25 in production environment."
+        ]
+      },
+      "pin": false
+    },
+    {
+      "title": {
+        "zh": "軟體工程師",
+        "en": "Software Engineer"
+      },
+      "company": {
+        "zh": "美商科高",
+        "en": "Google"
+      },
+      "from": "2025-04",
+      "to": "present",
+      "description": {
+        "zh": [
+          "致力開發更新、更智能的作業系統用於革新人們使用的穿戴裝置。"
+        ],
+        "en": [
+          "Driven to revolutionize the way people interact with newer and smarter devices with Android and WearOS platforms."
+        ]
+      },
+      "pin": true
+    },
+    {
+      "title": {
+        "zh": "機器學習/深度學習 工程師 實習生",
+        "en": "ML/DL Engineer Intern"
+      },
+      "company": {
+        "zh": "聯發科技",
+        "en": "MediaTek"
+      },
+      "from": "2024-10",
+      "to": "2025-04",
+      "description": {
+        "zh": [
+          "開發了基於 LLM 的預提交代碼分析系統，並將其集成到 SmartIDE 中。",
+          "通過實現本地 LLM 和自定義函數呼叫，將 token 成本降低了 83%。",
+          "通過平行化執行程式工作流，加快了 75% 的程式碼審查過程。",
+          "通過與 SWRD 團隊合作優化審查規則，實現了 0.62 的 recall rate。"
+        ],
+        "en": [
+          "Developed pre-commit code analysis system by integrating LLM capabilities into SmartIDE.",
+          "Reduced token costs by 83% through implementing local LLM with custom function calling.",
+          "Accelerated code review process by 75% by optimizing parallel workflow execution.",
+          "Achieved 0.62 recall rate through collaboration with SWRD team on review rule optimization."
+        ]
+      },
+      "pin": false
+    },
+    {
+      "title": {
+        "zh": "機器學習/後端 工程師 實習生",
+        "en": "ML/Backend Engineer Intern"
+      },
+      "company": {
+        "zh": "核果智能科技",
+        "en": "Walnutek"
+      },
+      "from": "2021-09",
+      "to": "2024-09",
+      "description": {
+        "zh": [
+          "通過在 AWS Spark（20個 t3.2xlarge 節點）上實施分佈式計算，設計了一個高擴展性的 AutoML 平台，服務於 50 多名研究人員，在分類、時間序列和回歸任務中將模型訓練時間減少了 80%。",
+          "通過開發實時機器學習參數優化系統，提高了發酵效率 35%，能夠在 5 分鐘處理窗口內平行評估 20 個模型。"
+        ],
+        "en": [
+          "Architected a high-scale AutoML platform serving 50+ researchers by implementing distributed computing on AWS Spark (20 t3.2xlarge nodes), reducing model training time by 80% across classification, time-series and regression tasks.",
+          "Boosted fermentation efficiency by 35% through developing a real-time ML parameter optimization system, enabling parallel evaluation of 20 models within 5-minute processing windows."
+        ]
+      },
+      "pin": false
+    },
+    {
+      "title": {
+        "zh": "研究助理",
+        "en": "Research Assistant"
+      },
+      "company": {
+        "zh": "資訊工程實驗室 / 財金實驗室 國立中央大學",
+        "en": "CSIE Lab / Finance Lab in National Central University"
+      },
+      "from": "2023-02",
+      "to": "2024-09",
+      "description": {
+        "zh": [
+          "通過與大三學生一起開展 45 多次文獻綜述，帶領研究方向優化，使研究團隊採納了 2 種新方法。",
+          "開發了一個基於 transformer 的貨幣匯率預測系統，在7天預測週期內比隨機游走基準減少了 10% 的 SMAPE 誤差。",
+          "在 2025 年 MTPC 會議上發表了關於通貨膨脹預測的研究論文，引入了用於貨幣政策分析的創新機器學習增強因子模型。"
+        ],
+        "en": [
+          "Spearheaded research direction optimization by conducting 45+ literature reviews with junior students, resulting in 2 new methodologies being adopted by the research team.",
+          "Developed a transformer-based currency exchange rate prediction system achieving 10% lower SMAPE than random walk baseline over 7-day forecasting horizon.",
+          "Published research paper on inflation forecasting at 2025 MTPC conference, introducing novel ML-augmented factor model for monetary policy analysis."
+        ]
+      },
+      "pin": false
+    },
+    {
+      "title": {
+        "zh": "自然語言處裡/圖像辨識 助教",
+        "en": "NLP/CV Teaching Assistant"
+      },
+      "company": {
+        "zh": "國立中央大學",
+        "en": "National Central University"
+      },
+      "from": "2021-09",
+      "to": "2024-09",
+      "description": {
+        "zh": [
+          "進行基礎課程教學、安排考試內容與考題檢討。"
+        ],
+        "en": [
+          "Conducted basic course teaching, arranged exam content and review questions."
+        ]
+      },
+      "pin": false
+    }
+  ],
+  "awards": [
+    {
+      "title": {
+        "zh": "和泰 MaaS 黑客松 1st 名",
+        "en": "Hotai MaaS Hackathon 1st Place"
+      },
+      "date": "2024-11",
+      "description": {
+        "zh": [
+          "帶領跨領域團隊開發 AI 驅動的旅行平台，在台灣全國創新競賽中 235 隊中獲得第 1 名。",
+          "設計並實做了一個基於大型語言模型(LLM)的旅行推薦系統：<br><br><ul><li>整合電腦視覺演算法，分析旅行圖像並提取關鍵旅遊地點。</li><li>開發個性化引擎，處理歷史行為數據以生成量身定制的行程。</li><li>與微軟雲架構師合作，優化系統並在 Azure 平台上部署。</li></ul>"
+        ],
+        "en": [
+          "Led a cross-functional team to develop an AI-powered travel platform, winning 1st place among 235 teams in Taiwan’s National Innovation Competition.",
+          "Architected and implemented an LLM-based travel recommendation system by:<br><br><ul><li>Designed and integrated computer vision algorithms to analyze travel imagery and extract key features.</li><li>Engineered a personalization engine processing historical behaviors to generate tailored itineraries</li><li>Collaborated with Microsoft Cloud Architects to optimize system and deployment on Azure platform</li></ul>"
+        ]
+      },
+      "link": "https://www.hotaimotor.com.tw/News/Details/72",
+      "image": "/static/hotai.png",
+      "pin": true
+    },
+    {
+      "title": {
+        "zh": "優秀學生獎學金",
+        "en": "Outstanding Student Scholarship"
+      },
+      "date": "2024-05",
+      "description": {
+        "zh": [
+          "策劃了一個為期 8 週的演算法訓練營，有超過 65 名跨領域學員。",
+          "帶領 8 個大學團隊在全國創新競賽中獲得領先位置，通過結構化的指導計劃達成 88% 的獲獎率。",
+          "為 100 多名農村學生開發並實施編程課程，通過建立可持續的學習途徑提高編程素養。",
+          "負責中央大學在教育部下的開源教育專案，同時擔任志工協助 SITCON 會議發展，使其覆蓋台灣各地的 10,000 多名學生參與者。"
+        ],
+        "en": [
+          "Orchestrated a 8-week algorithm bootcamp with 65+ cross-department participants.",
+          "Led 8 university teams to secure top positions in national innovation competitions, achieving a 88% award-winning rate through structured mentoring programs.",
+          "Developed and implemented coding curriculum for 100+ rural students, increasing programming literacy by establishing sustainable learning pathways",
+          "Led development of national open-source education projects under Ministry of Education, while driving SITCON conference growth to reach 10,000+ student participants across Taiwan."
+        ]
+      },
+      "link": "https://global.turingcerts.com/zh-TW/co/cert?hash=d5b2a1b795a0ff33d2e5a7b0911c6a411f49b57a4a3ab6138da2358e7ce7b078",
+      "image": "/static/scholarship.jpg",
+      "pin": true
+    },
+    {
+      "title": {
+        "zh": "第三名 - 資訊應用服務創新競賽資安技術組",
+        "en": "3rd Place - Information Application Service Innovation Competition"
+      },
+      "date": "2024-09",
+      "description": {
+        "zh": [
+          "通過運用 LoRA 微調 Code Llama，設計了一種最先進的 LLM 反編譯器，在將二進制轉換為可讀內核代碼方面達到了 89% 的準確率 。",
+          "領導開發自定義標記化處理流程，通過並行計算優化將處理時間減少了 65% 。",
+          "指導 3 名初級開發人員學習 MLOps 工作流，使部署週期加快 40%，並在 1,600 多個團隊的競賽中成功取得了的名次。"
+        ],
+        "en": [
+          "Architected a state-of-the-art LLM decompiler by leveraging Code Llama, achieving 89% accuracy in converting binary to readable kernel code.",
+          "Mentored 3 junior developers in MLOps practices, resulting in 40% faster deployment cycles and successful competition placement among 1,600+ teams.",
+          "Led development of custom tokenization pipeline reducing processing time by 65% through parallel computing optimization."
+        ]
+      },
+      "link": "https://innoserve.tca.org.tw/award.aspx",
+      "image": null,
+      "pin": false
+    },
+    {
+      "title": {
+        "zh": "大專學生研究計畫 - 國家科學及技術委員會",
+        "en": "College Student Research Scholarship - National Science and Technology Council"
+      },
+      "date": "2024-07",
+      "description": {
+        "zh": [
+          "通過提出關於「基於轉換器的時間序列分析」的開創性提案，在超過9,000名申請者中脫穎而出，成功獲得48,000美元的國家研究資助。"
+        ],
+        "en": [
+          "Secured $48,000 national research grant by outcompeting 9,000+ applicants with pioneering proposal on \"Transformer-Based Time Series Analysis\"."
+        ]
+      },
+      "link": "https://wsts.nstc.gov.tw/STSWeb/Award/AwardMultiQuery.aspx",
+      "image": null,
+      "pin": false
+    },
+    {
+      "title": {
+        "zh": "合規/公司治理特別獎 - Lawsnote 黑客松",
+        "en": "Special Award for Compliance/Corporate Governance - Hackathon Lawsnote "
+      },
+      "date": "2024-08",
+      "description": {
+        "zh": [
+          "開發知識產權權利法律遵循平台，通過實施基於自然語言處理的法律文件分析，將跨區域合規處理時間減少了 85% 。",
+          "在20個專業團隊中獲得特別獎，提供了整合 RESTful API 和自動化合規驗證的端到端解決方案。"
+        ],
+        "en": [
+          "Led development of IP rights alignment platform reducing cross-regional compliance processing time by 85% by implementing NLP-based legal document analysis",
+          "Secured Special Award among 20 professional teams by delivering end-to-end solution integrating REST APIs and automated compliance validation"
+        ]
+      },
+      "link": "https://hackathon.lawsnote.com/#winners",
+      "image": null,
+      "pin": false
+    }
+  ],
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C++",
+      "JavaScript"
+    ],
+    "frameworks": [
+      "Flask",
+      "FastAPI",
+      "React",
+      "PyTorch",
+      "OpenCV",
+      "Scikit-learn",
+      "Transformers",
+      "Gradio",
+      "NumPy",
+      "Pandas",
+      "LLamaIndex"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL",
+      "SQLite"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Apache Spark"
+    ],
+    "cloud_services": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "other": [
+      "Machine/Deep Learning",
+      "Time Series Analysis",
+      "Natural Language Processing"
+    ]
+  }
+}

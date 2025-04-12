@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hsun-Hao Chang | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<div class="language-toggle">
+    <button id="lang-en" class="active">EN</button>
+    <button id="lang-zh">中</button>
+</div>
+
+<header class="hero">
+    <div class="container">
+        <div class="profile-info">
+            <h1 id="name"></h1>
+            <p id="profile"></p>
+        </div>
+        <div id="profile-image-container" class="profile-image">
+            <!-- Profile image will be inserted here if available -->
+        </div>
+    </div>
+</header>
+
+<section class="education section">
+    <div class="container">
+        <h2 class="section-title" data-en="Education" data-zh="教育背景"></h2>
+        <div id="education-container" class="timeline"></div>
+    </div>
+</section>
+
+<section class="experience section">
+    <div class="container">
+        <h2 class="section-title" data-en="Experience" data-zh="工作經驗"></h2>
+        <div id="pinned-experience-container" class="timeline"></div>
+    </div>
+</section>
+
+<section class="awards section">
+    <div class="container">
+        <h2 class="section-title" data-en="Awards" data-zh="獎項"></h2>
+        <div id="pinned-awards-container" class="awards-grid-two-columns"></div>
+    </div>
+</section>
+
+<section class="skills section">
+    <div class="container">
+        <h2 class="section-title" data-en="Technical Skills" data-zh="技術能力"></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3 data-en="Programming Languages" data-zh="程式語言"></h3>
+                <div id="programming-languages" class="skill-tags"></div>
+            </div>
+            <div class="skill-category">
+                <h3 data-en="Frameworks" data-zh="框架"></h3>
+                <div id="frameworks" class="skill-tags"></div>
+            </div>
+            <div class="skill-category">
+                <h3 data-en="Databases" data-zh="資料庫"></h3>
+                <div id="databases" class="skill-tags"></div>
+            </div>
+            <div class="skill-category">
+                <h3 data-en="Tools" data-zh="工具"></h3>
+                <div id="tools" class="skill-tags"></div>
+            </div>
+            <div class="skill-category">
+                <h3 data-en="Cloud Services" data-zh="雲服務"></h3>
+                <div id="cloud-services" class="skill-tags"></div>
+            </div>
+            <div class="skill-category">
+                <h3 data-en="Other" data-zh="其他"></h3>
+                <div id="other-skills" class="skill-tags"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="experience section">
+    <div class="container">
+        <div id="other-experience-container" class="timeline secondary-content"></div>
+    </div>
+</section>
+
+<section class="awards section">
+    <div class="container">
+        <div id="other-awards-container" class="awards-grid secondary-content"></div>
+    </div>
+</section>
+
+<!--<footer>-->
+<!--    <div class="container">-->
+<!--        <p data-en="© 2025 Hsun-Hao Chang. All rights reserved." data-zh="© 2025 張勛皓. 版權所有."></p>-->
+<!--    </div>-->
+<!--</footer>-->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <p data-en="© 2025 Hsun-Hao Chang. All rights reserved." data-zh="© 2025 張勛皓. 版權所有."></p>
+        </div>
+        <div class="footer-contact">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:leo20020529@gmail.com">leo20020529@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+886932299629">+886 932 299 629</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/xunhaoz-chang-b3321b211/" target="_blank">LinkedIn</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/Xunhaoz/" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

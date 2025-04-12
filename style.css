@@ -1,0 +1,585 @@
+:root {
+    --primary-color: #0070f3;
+    --secondary-color: #6c757d;
+    --dark-color: #1a1a2e;
+    --light-color: #f8f9fa;
+    --accent-color: #00c896;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --text-color: #333;
+    --bg-color: #ffffff;
+    --card-bg: #f8f9fa;
+    --card-hover: #e9ecef;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Language Toggle */
+.language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: var(--shadow);
+}
+
+.language-toggle button {
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: var(--transition);
+}
+
+.language-toggle button.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    padding: 150px 0 50px;
+    background: linear-gradient(135deg, var(--dark-color) 0%, #16213e 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"%3E%3Cpath fill="%230070f3" fill-opacity="0.1" d="M0,160L60,138.7C120,117,240,75,360,80C480,85,600,139,720,176C840,213,960,235,1080,218.7C1200,203,1320,149,1380,122.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ffffff, var(--accent-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.profile-info p {
+    font-size: 1.25rem;
+    max-width: 100%;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.profile-image {
+    flex: 0 0 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: visible;
+    box-shadow: var(--shadow);
+    /*transform: rotate(3deg);*/
+    transition: var(--transition);
+    margin-left: -40px;
+    margin-top: -250px;
+}
+
+.profile-image:hover {
+    transform: rotate(3deg);
+    /*transform: rotate(0);*/
+}
+
+.profile-image img {
+    width: 200%;
+    height: 200%;
+    object-fit: contain;
+}
+
+/* Section Styling */
+.section {
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    color: var(--dark-color);
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100px;
+    height: 5px;
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 2px;
+    height: 100%;
+    background: var(--primary-color);
+    opacity: 0.3;
+}
+
+.timeline-item {
+    margin-left: 30px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -39px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    border: 5px solid var(--bg-color);
+    box-shadow: var(--shadow);
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.timeline-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.timeline-company {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.timeline-date {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    background: var(--card-bg);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.timeline-description {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.timeline-description:hover {
+    background: var(--card-hover);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.timeline-description ul {
+    padding-left: 20px;
+}
+
+.timeline-description li {
+    margin-bottom: 10px;
+}
+
+/* Awards Grid */
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.awards-grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));*/
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.award-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    position: relative; /* 讓卡片成為相對定位的容器 */
+    padding-bottom: 40px; /* 為底部按鈕預留空間 */
+}
+
+.award-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.award-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.award-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.award-card:hover .award-image img {
+    transform: scale(1.1);
+}
+
+.award-content {
+    padding: 20px;
+}
+
+.award-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--dark-color);
+}
+
+.award-date {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.award-description {
+    margin-bottom: 20px;
+}
+
+.award-link {
+    display: inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    position: absolute; /* 絕對定位 */
+    bottom: 20px; /* 距離底部 20px */
+    left: 40px; /* 距離左側 20px，也可以使用 right 來調整 */
+}
+
+.award-link:hover {
+    color: var(--accent-color);
+}
+
+/* Award card without image */
+.award-card-no-image .award-content {
+    border-top: 5px solid var(--primary-color);
+}
+
+/* Skills */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.skill-category h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--dark-color);
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: var(--primary-color);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.skill-tag:hover {
+    background: var(--accent-color);
+    transform: translateY(-3px);
+}
+
+/* Secondary content (for non-pinned items) */
+.secondary-content {
+    opacity: 0.8;
+}
+
+.section-subtitle {
+    font-size: 1.8rem;
+    margin: 40px 0 20px;
+    color: var(--secondary-color);
+}
+
+footer {
+    /*background-color: #333;*/
+    background: var(--dark-color);
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    margin-bottom: 15px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-item i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-item {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info {
+        margin-bottom: 40px;
+    }
+
+    .profile-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .profile-image {
+        display: none;
+        margin-left: 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .timeline-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .timeline-date {
+        margin-top: 10px;
+    }
+
+    .awards-grid-two-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 100px 0 80px;
+    }
+
+    .profile-info h1 {
+        font-size: 2rem;
+    }
+
+    .profile-info p {
+        font-size: 1rem;
+    }
+
+    .profile-image {
+        display: none;
+        flex: 0 0 250px;
+        height: 250px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .awards-grid-two-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero {
+        padding: 80px 0 60px;
+    }
+
+    .profile-info h1 {
+        font-size: 1.8rem;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .profile-image {
+        display: none;
+        flex: 0 0 200px;
+        height: 200px;
+    }
+
+    .awards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .awards-grid-two-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.section:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.section:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.section:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.section:nth-child(5) {
+    animation-delay: 0.8s;
+}
