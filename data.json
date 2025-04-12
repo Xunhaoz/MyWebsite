@@ -7,7 +7,7 @@
     "zh": "一位有 <b>上進心</b> 的跨領域開發者，僅用三年半完成雙學士學位，展現非凡學習能力。</br></br>曾在四個不同學科的實驗室進行研究，培養了強大的 <b>跨學科整合能力</b>。</br></br>通過帶領 <b>跨領域團隊</b> 贏得四項國家級創新獎項，展示出卓越的領導才能和解決實際問題的技術能力。</br></br>在創業公司與大型企業的工作經驗中，充分發揮 <b>團隊合作</b> 精神和 <b>創新思維</b>，積累了豐富的實戰經驗。",
     "en": "A highly <u>self-motivated</u> and adaptive <u>cross-domain</u> developer who completed dual bachelor’s degrees within just three and a half years. </br></br>Demonstrated exceptional learning agility through research assistant roles across 4 diverse laboratories, showing strong <u>interdisciplinary integration</u> capabilities. <br><br>Led <u>cross functional</u> teams to win four national innovation awards, while excelling at implementing technical solutions for real-world challenges. <br><br>Gained valuable experience in both startups and large enterprises, demonstrating outstanding <u>teamwork</u> and <u>innovative thinking</u>."
   },
-  "life_photos": "/static/life_photo.png",
+  "life_photos": "/MyWebsite/static/life_photo.png",
   "education": [
     {
       "degree": {
@@ -194,7 +194,7 @@
         ]
       },
       "link": "https://www.hotaimotor.com.tw/News/Details/72",
-      "image": "/static/hotai.png",
+      "image": "/MyWebsite/static/hotai.png",
       "pin": true
     },
     {
@@ -218,7 +218,7 @@
         ]
       },
       "link": "https://global.turingcerts.com/zh-TW/co/cert?hash=d5b2a1b795a0ff33d2e5a7b0911c6a411f49b57a4a3ab6138da2358e7ce7b078",
-      "image": "/static/scholarship.jpg",
+      "image": "/MyWebsite/static/scholarship.jpg",
       "pin": true
     },
     {
