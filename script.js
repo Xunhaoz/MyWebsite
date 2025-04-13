@@ -15,10 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error loading data:', error));
 
-    function initializeWebsite(data) {
-        // Set page title
-        document.title = `${data.name.en} | Portfolio`;
-        
+    function initializeWebsite(data) {        
         // Set profile image if available
         if (data.life_photos) {
             const profileImageContainer = document.getElementById('profile-image-container');
