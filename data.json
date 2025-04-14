@@ -280,6 +280,24 @@
       "link": "https://hackathon.lawsnote.com/#winners",
       "image": null,
       "pin": false
+    },
+    {
+      "title": {
+        "zh": "第一名 - 中央大學資訊工程系專題競賽AI組",
+        "en": "1st Place - NCU Special Project Competition in CS AI Group"
+      },
+      "date": "2024-01",
+      "description": {
+        "zh": [
+          "透過搭建先進的 transformer 時間序列模型，實現七日內優於隨機漫步的匯率預測系統。"
+        ],
+        "en": [
+          "Build an advanced transformer-based time series model to achieve a currency exchange rate prediction system that outperforms random walk models within a seven-day period."
+        ]
+      },
+      "link": null,
+      "image": null,
+      "pin": false
     }
   ],
   "tech_stack": {
