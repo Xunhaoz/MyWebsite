@@ -283,6 +283,24 @@
     },
     {
       "title": {
+        "zh": "佳作 - Mobileheroes 通訊節能優化大賽",
+        "en": "Winning - Mobileheroes Communication Energy Saving Optimization Competition"
+      },
+      "date": "2024-11",
+      "description": {
+        "zh": [
+          "建立電腦視覺代理人，提供最佳的即時路況，在規劃道路時節省 99.7% 的碳排放。"
+        ],
+        "en": [
+          "Build up a Computer Vision Agent to provide the best real-time road conditions to save 99.7% of carbon emissions while planning road."
+        ]
+      },
+      "link": null,
+      "image": null,
+      "pin": false
+    },
+    {
+      "title": {
         "zh": "第一名 - 中央大學資訊工程系專題競賽AI組",
         "en": "1st Place - NCU Special Project Competition in CS AI Group"
       },
