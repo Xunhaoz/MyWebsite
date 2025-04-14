@@ -264,7 +264,7 @@
     {
       "title": {
         "zh": "合規/公司治理特別獎 - Lawsnote 黑客松",
-        "en": "Special Award for Compliance/Corporate Governance - Hackathon Lawsnote "
+        "en": "Special Award for Compliance/Corporate Governance - Hackathon Lawsnote"
       },
       "date": "2024-08",
       "description": {
@@ -296,6 +296,24 @@
         ]
       },
       "link": null,
+      "image": null,
+      "pin": false
+    },
+    {
+      "title": {
+        "zh": "跨域整合特別獎 - 2022全國大專校院智慧創新暨跨域整合創作競賽",
+        "en": "Special Award for Cross-Domain Integration - National Innovation and Integration Creation Competition"
+      },
+      "date": "2022-10",
+      "description": {
+        "zh": [
+          "一個整合多家外送平台的比價系統，讓使用者能一站式比較價格、評價並直接下單。"
+        ],
+        "en": [
+          "A price comparison system that integrates multiple delivery platforms, allowing users to compare prices, review and place orders directly in one place."
+        ]
+      },
+      "link": "https://niicc.cilab.csie.ncu.edu.tw/achievement/achieveresult/40102",
       "image": null,
       "pin": false
     }
