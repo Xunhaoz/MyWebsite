@@ -223,6 +223,24 @@
     },
     {
       "title": {
+        "zh": "第一名 - 中央大學資訊工程系專題競賽AI組",
+        "en": "1st Place - NCU Special Project Competition in CS AI Group"
+      },
+      "date": "2024-01",
+      "description": {
+        "zh": [
+          "透過搭建先進的 transformer 時間序列模型，實現七日內優於隨機漫步的匯率預測系統。"
+        ],
+        "en": [
+          "Build an advanced transformer-based time series model to achieve a currency exchange rate prediction system that outperforms random walk models within a seven-day period."
+        ]
+      },
+      "link": null,
+      "image": null,
+      "pin": false
+    },
+    {
+      "title": {
         "zh": "第三名 - 資訊應用服務創新競賽資安技術組",
         "en": "3rd Place - Information Application Service Innovation Competition"
       },
@@ -240,24 +258,6 @@
         ]
       },
       "link": "https://innoserve.tca.org.tw/award.aspx",
-      "image": null,
-      "pin": false
-    },
-    {
-      "title": {
-        "zh": "大專學生研究計畫 - 國家科學及技術委員會",
-        "en": "College Student Research Scholarship - National Science and Technology Council"
-      },
-      "date": "2024-07",
-      "description": {
-        "zh": [
-          "通過提出關於「基於轉換器的時間序列分析」的開創性提案，在超過9,000名申請者中脫穎而出，成功獲得48,000美元的國家研究資助。"
-        ],
-        "en": [
-          "Secured $48,000 national research grant by outcompeting 9,000+ applicants with pioneering proposal on \"Transformer-Based Time Series Analysis\"."
-        ]
-      },
-      "link": "https://wsts.nstc.gov.tw/STSWeb/Award/AwardMultiQuery.aspx",
       "image": null,
       "pin": false
     },
@@ -283,6 +283,24 @@
     },
     {
       "title": {
+        "zh": "大專學生研究計畫 - 國家科學及技術委員會",
+        "en": "College Student Research Scholarship - National Science and Technology Council"
+      },
+      "date": "2024-07",
+      "description": {
+        "zh": [
+          "通過提出關於「基於轉換器的時間序列分析」的開創性提案，在超過9,000名申請者中脫穎而出，成功獲得48,000美元的國家研究資助。"
+        ],
+        "en": [
+          "Secured $48,000 national research grant by outcompeting 9,000+ applicants with pioneering proposal on \"Transformer-Based Time Series Analysis\"."
+        ]
+      },
+      "link": "https://wsts.nstc.gov.tw/STSWeb/Award/AwardMultiQuery.aspx",
+      "image": null,
+      "pin": false
+    },
+    {
+      "title": {
         "zh": "佳作 - Mobileheroes 通訊節能優化大賽",
         "en": "Winning - Mobileheroes Communication Energy Saving Optimization Competition"
       },
@@ -293,24 +311,6 @@
         ],
         "en": [
           "Build up a Computer Vision Agent to provide the best real-time road conditions to save 99.7% of carbon emissions while planning road."
-        ]
-      },
-      "link": null,
-      "image": null,
-      "pin": false
-    },
-    {
-      "title": {
-        "zh": "第一名 - 中央大學資訊工程系專題競賽AI組",
-        "en": "1st Place - NCU Special Project Competition in CS AI Group"
-      },
-      "date": "2024-01",
-      "description": {
-        "zh": [
-          "透過搭建先進的 transformer 時間序列模型，實現七日內優於隨機漫步的匯率預測系統。"
-        ],
-        "en": [
-          "Build an advanced transformer-based time series model to achieve a currency exchange rate prediction system that outperforms random walk models within a seven-day period."
         ]
       },
       "link": null,
