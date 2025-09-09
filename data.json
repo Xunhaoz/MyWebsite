@@ -11,8 +11,20 @@
   "education": [
     {
       "degree": {
+        "zh": "資訊科學與工程研究所",
+        "en": "Master of Science in Institute of Computer Science and Engineering"
+      },
+      "university": {
+        "zh": "國立陽明交通大學",
+        "en": "National Yang Ming Chiao Tung University"
+      },
+      "from": "2025-09",
+      "to": "present"
+    },
+    {
+      "degree": {
         "zh": "資訊工程學系 工程學士 GPA 4.2",
-        "en": "Bachelor of Engineer in Computer Science and Information Engineering GPA 4.2"
+        "en": "Bachelor of Science in Computer Science and Information Engineering GPA 4.2"
       },
       "university": {
         "zh": "國立中央大學",
@@ -24,7 +36,7 @@
     {
       "degree": {
         "zh": "財務金融學系 管理學士",
-        "en": "Bachelor of Management in Finance"
+        "en": "Bachelor of Business Administration in Finance"
       },
       "university": {
         "zh": "國立中央大學",
